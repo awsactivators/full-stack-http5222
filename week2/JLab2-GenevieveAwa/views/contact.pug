@@ -1,0 +1,23 @@
+extends layout
+
+block layout-content
+  section#contact
+    h1 Contact Us
+    p Have questions or need assistance? Get in touch!
+    div#form-container
+      form(action='/send-message' method='POST')
+        div#field-wrapper
+          div.input-labbel
+            label(for='name') Name:
+            input(type='text' id='name' name='name' required)
+
+          div.input-labbel
+            label(for='email') Email:
+            input(type='email' id='email' name='email' required)
+          
+          div.input-labbel
+            label(for='message') Message:
+            textarea(id='message' name='message' rows='4' required)
+          
+          div.submit-button
+            button(type='submit') Send Message

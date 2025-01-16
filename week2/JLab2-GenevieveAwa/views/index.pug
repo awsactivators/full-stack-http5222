@@ -1,0 +1,84 @@
+extends layout
+
+block layout-content
+  section#hero
+    h1 Welcome to ShopIT
+    p Your one-stop shop for the latest gadgets.
+
+  section#products
+    h2 Featured Products
+    div.items-container
+      div.items-row
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dsmart%2Bwatch%2Bround&psig=AOvVaw20bwMZOsswYXVspEIvwLfX&ust=1737084369038000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCfu9yl-YoDFQAAAAAdAAAAABAx
+          img(src='/img/watch.jpg' alt='Smartwatch')
+          h3 Smartwatch
+          p A stylish smartwatch with health tracking features.
+          button Add to Cart
+
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbluetooth-speaker&psig=AOvVaw0wmq5raKvGA0nBIy-99MWs&ust=1737084833971000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDOiban-YoDFQAAAAAdAAAAABAE
+          img(src='/img/bluetooth.jpeg' alt='Wireless Bluetooth')
+          h3 Bluetooth Speaker
+          p Portable speaker with exceptional sound.
+          button Add to Cart
+        
+      div.items-row
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.toxel.com%2Ftech%2F2024%2F12%2F17%2Fspeaker-headphones-by-changhwi-kim%2F&psig=AOvVaw1g2m88ArK4J1wyZPG10Rv5&ust=1737084943088000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjhuO6n-YoDFQAAAAAdAAAAABBB
+          img(src='/img/headset.jpg' alt='Headset')
+          h3 Headphones
+          p Premium sound quality and noise cancellation. 
+          button Add to Cart
+
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.apple.com%2Fca%2Fnewsroom%2F2021%2F09%2Fapple-introduces-iphone-13-and-iphone-13-mini%2F&psig=AOvVaw14isDeCXIelg-8mrnCzjm9&ust=1737085459404000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiakuap-YoDFQAAAAAdAAAAABAE
+          img(src='/img/phone.jpg' alt='Phone')
+          h3 Smartphone
+          p Latest smartphone from Apple.
+          button Add to Cart
+
+      div.items-row
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Flaptop&psig=AOvVaw1tShNNsGjIXGmS3ijxFjVl&ust=1737085565626000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDM2pSq-YoDFQAAAAAdAAAAABAJ
+          img(src='/img/laptop.jpg' alt='Laptop')
+          h3 Laptop
+          p Portable 14 inches Mac Book.
+          button Add to Cart
+
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fnews.samsung.com%2Fglobal%2Fsamsung-expands-tablet-portfolio-with-galaxy-tab-s3-and-galaxy-book-offering-enhanced-mobile-entertainment-and-productivity&psig=AOvVaw3qEs2k3OrQUf91jKOAfWF-&ust=1737085648072000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCWub-q-YoDFQAAAAAdAAAAABAJ
+          img(src='/img/tab.jpg' alt='Tablet')
+          h3 Tablet
+          p Latest tablet with stylus pen.
+          button Add to Cart
+
+      div.items-row
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Flcd-television&psig=AOvVaw1FgrKKBCsY8wMn1IHKYA_B&ust=1737085709565000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLD13teq-YoDFQAAAAAdAAAAABAE
+          img(src='/img/tv.jpg' alt='Television')
+          h3 Smart Television
+          p 60 inches flat screen TV with wifi.
+          button Add to Cart
+
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dvr%2Bheadset&psig=AOvVaw0AUtl_wP46lM8JHd7NZ4Mw&ust=1737085766776000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDKjvOq-YoDFQAAAAAdAAAAABAE
+          img(src='/img/vr.jpg' alt='Virtual Reality')
+          h3 Virtual Reality
+          p Enjoy virtual games with this latest VR.
+          button Add to Cart
+
+      div.items-row
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.radiotimes.com%2Ftechnology%2Fplaystation-5-specs%2F&psig=AOvVaw1HDvG6Wcv4dB5R94qdulng&ust=1737085833205000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjp1ZKr-YoDFQAAAAAdAAAAABAZ
+          img(src='/img/ps5.jpg' alt='Play Station 5')
+          h3 Play Station 5
+          p Latest PS5 with one control and 10 games.
+          button Add to Cart
+
+        div.item-card
+          // Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-vector%2Frealistic-design-fitness-trackers_7744142.htm&psig=AOvVaw0hub896rbln5CV2JH0iAH9&ust=1737085958707000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDtsc-r-YoDFQAAAAAdAAAAABAE
+          img(src='/img/tracker.jpeg' alt='Fitness Tracker')
+          h3 Fitness Tracker
+          p Track your fitness goals with ease.
+          button Add to Cart
