@@ -70,7 +70,7 @@ app.get("/admin/menu/delete", async (request, response) => {
 
 })
 
-// request to edit 
+// request to edit menulinks
 app.get("/admin/menu/edit", async (request, response) => { 
   if (request.query.linkId) { 
     let linkToEdit = await getSingleLink(request.query.linkId); 
@@ -85,7 +85,7 @@ editLink: linkToEdit });
 
 app.post("/admin/menu/edit/submit", async (request, response) => { 
   // Get the _id from the form and create a filter
-  let id = request.body.id; // Assuming the form includes a hidden input with the ID
+  let id = request.body.id; 
   let idFilter = { _id: new ObjectId(id) }; 
   
   // Get weight/path/name form values and build a JSON object containing these (updated) values
