@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "ObjectId('6790f3b4fc62196bec161645')",
+    "weight": 0,
+    "path": "/",
+    "name": "Home"
+  },
+  {
+    "_id": "ObjectId('67910cf67d57d41f23d2651c')",
+    "weight": 1,
+    "path": "/about",
+    "name": "About"
+  },
+  {
+    "_id": "ObjectId('6792f2393232718d8007f9bd')",
+    "weight": 2,
+    "path": "/contact",
+    "name": "Contact Us"
+  }
+]
