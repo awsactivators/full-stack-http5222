@@ -1,0 +1,9 @@
+extends common/layout
+
+block layout-content 
+  .main-content 
+    h1.page-title Movie Database
+    each movie in movies 
+      div 
+        h2 Title: #{movie.title} (#{movie.year})
+        p Rating: #{movie.rating}
