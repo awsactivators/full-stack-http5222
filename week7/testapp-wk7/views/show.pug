@@ -1,0 +1,14 @@
+extends layout 
+
+block main-content 
+  h1.page-title Trakt Anticipated Shows! 
+  table
+    thead
+      tr
+        th Show title
+        th Year
+    tbody
+       each s in shows
+        tr
+          td: a(href= `https://imdb.com/title/${s.show.ids.imdb}`) #{s.show.title}
+          td #{s.show.year}
