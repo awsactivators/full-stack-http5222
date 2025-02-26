@@ -1,0 +1,13 @@
+extends layout
+
+block main-content
+  h1 Libraries
+  ul 
+    each library in libraries 
+      - let bName = library.querySelector("name").textContent; 
+      - let bDescription = library.querySelector("description").textContent;
+      - let lID = library.getAttribute("id");
+      li
+        div 
+          h2: a(href=`/library/${lID}`) #{bName}
+          p #{bDescription}

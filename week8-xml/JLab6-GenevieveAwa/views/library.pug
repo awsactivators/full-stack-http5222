@@ -1,0 +1,10 @@
+extends layout
+
+block main-content
+  - let bName = branch.querySelector("name").textContent; 
+  - let bAddr = branch.querySelector("address").textContent; 
+  - let bPhoneNo = branch.querySelector("phoneNumber").textContent; 
+  h1 #{bName}
+  p Address: #{bAddr}
+  p Phone Number: #{bPhoneNo}
+
