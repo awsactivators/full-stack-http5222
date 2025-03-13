@@ -1,0 +1,23 @@
+#header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.site-name h2{
+  font-size: 28px;
+}
+
