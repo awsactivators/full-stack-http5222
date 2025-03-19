@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  height: 100vh;
+  color: black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main {
+  margin-left: 20px;
+}
+
+#question-container {
+  border: 2px solid #999;
+  padding: 10px;
+  width: 95%;
+}
+
+#category {
+  font-style: italic;
+}
+
+#question {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#reveal-answer {
+  color: green;
+  font-weight: bold;
+}
+
+#reveal-btn {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #131645;
+  border: none;
+  margin-top: 5px;
+}

@@ -1,0 +1,15 @@
+#header {
+  padding:2em 1em;
+  border-bottom:2px solid #646cff;
+}
+.sitename {
+  font-style:italic;
+}
+.active {
+  color:#fff;
+}
+.special {
+  color:#fff;
+  background-color: #646cff;
+  border-bottom:2px solid #fff;
+}

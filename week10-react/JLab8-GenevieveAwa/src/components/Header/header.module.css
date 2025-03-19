@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+#header {
+  background-color: black;
+}
+
+#header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.sitename {
+  margin: 0;
+}
+
+
+#nav-container ul{
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+li a {
+  color: white;
+}
